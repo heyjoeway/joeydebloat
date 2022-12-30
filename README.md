@@ -14,6 +14,11 @@ The way I've set up the auto-download script allows you to tweak this config bef
 
 # Other Tips
 
+If you're trying to install Windows 11 on an unsupported machine, check out the following repos:
+- <https://github.com/JosephM101/Force-Windows-11-Install>
+- <https://github.com/ArkaneDev/WinPass11>
+- <https://github.com/rcmaehl/WhyNotWin11>
+
 When installing Windows 11, stop when you get to the OOBE (where you connect to the network, create an account, etc.) and do the following:
 
 - Press Shift+F10 to open a command prompt.
