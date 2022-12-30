@@ -1,0 +1,1 @@
+winget uninstall "Windows web experience pack"

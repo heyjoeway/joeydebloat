@@ -1,0 +1,1 @@
+powershell -C Set-ExecutionPolicy Unrestricted
