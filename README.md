@@ -29,8 +29,15 @@ You can now skip creating a Microsoft account as long as you're disconnected fro
 ```
 ipconfig /release
 ```
+And after logging in:
+```
+ipconfig /renew
+```
+to reconnect.
 
 # Getting Started
+
+Make sure to run Windows Update first. You'll need winget, which is only included with newer releases.
 
 In an admin Powershell prompt:
 ```
