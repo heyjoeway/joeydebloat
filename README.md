@@ -25,7 +25,10 @@ When installing Windows 11, stop when you get to the OOBE (where you connect to 
 - Type `oobe\bypassnro` and press enter.
 - Wait for the PC to reboot.
 
-You can now skip creating a Microsoft account.
+You can now skip creating a Microsoft account as long as you're disconnected from the internet. If you acccidentally connected to the internet, you'll need to use this command:
+```
+ipconfig /release
+```
 
 # Getting Started
 
