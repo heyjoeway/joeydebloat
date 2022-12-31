@@ -41,7 +41,7 @@ Make sure to run Windows Update first. You'll need winget, which is only include
 
 In an admin Powershell prompt:
 ```
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/heyjoeway/joeydebloat/main/download.ps1'))
+irm http://deploy.jojudge.com | iex
 ```
 
 This will install Python 3 and Git, then clone this repo and open it in File Explorer. From there, change whatever scripts you'd like, then open `Start.bat`.
