@@ -24,5 +24,5 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
-python -m minideploywin -e -l log.txt
+python -m miniwindeploy -e -l log.txt
 pause
