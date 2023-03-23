@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\Start\HideShutDown]
+"Behavior"=dword:00000020
+"highrange"=dword:00000001
+"lowrange"=dword:00000000
+"mergealgorithm"=dword:00000001
+"policytype"=dword:00000004
+"value"=dword:00000001
