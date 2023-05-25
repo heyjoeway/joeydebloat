@@ -7,7 +7,7 @@ This config will probably do a lot of stuff you don't agree with, including but 
 
 - Running unsigned Powershell scripts
 - Activation via Microsoft Activation Scripts
-- Uninstalling a bucnh of built-in software
+- Uninstalling a bunch of built-in software
 - Installing my preferred programs
 
 The way I've set up the auto-download script allows you to tweak this config before running by deleting tweaks you don't like. (You can also fork this repo.) I will be accepting suggestions, but ultimately what gets added here is up to my personal preference. I will not be managing a standard "community preset".
