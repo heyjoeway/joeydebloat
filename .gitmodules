@@ -1,0 +1,3 @@
+[submodule "Models/Jupiter/104 Drivers/SteamDeck-Windows-WiFi-Fix"]
+	path = Models/Jupiter/104 Drivers/SteamDeck-Windows-WiFi-Fix
+	url = https://github.com/ryanrudolfoba/SteamDeck-Windows-WiFi-Fix
