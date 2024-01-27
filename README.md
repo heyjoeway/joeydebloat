@@ -1,5 +1,5 @@
 # joeydebloat
-My personal config for miniwindeploy.
+My personal config for [miniwindeploy](https://github.com/heyjoeway/miniwindeploy).
 
 # Disclaimer
 
