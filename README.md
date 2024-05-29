@@ -44,7 +44,7 @@ In an admin Powershell prompt:
 irm http://jojudge.com/joeydebloat | iex
 ```
 
-This will install Python 3 and Git, then clone this repo and open it in File Explorer. From there, change whatever scripts you'd like, then open `Start.bat`.
+This will install Python 3, Git, and the [miniwindeploy](https://github.com/heyjoeway/miniwindeploy) Python package. It then clones this repo and opens it in File Explorer. From there, change whatever scripts you'd like, then open `Start.bat`.
 
 # License
 MIT
