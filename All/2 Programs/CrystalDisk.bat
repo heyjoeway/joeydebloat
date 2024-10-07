@@ -1,2 +1,2 @@
-winget install --accept-package-agreements --accept-source-agreements -h --scope machine CrystalDewWorld.CrystalDiskMark
-winget install --accept-package-agreements --accept-source-agreements -h --scope machine CrystalDewWorld.CrystalDiskInfo
+winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine CrystalDewWorld.CrystalDiskMark
+winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine CrystalDewWorld.CrystalDiskInfo

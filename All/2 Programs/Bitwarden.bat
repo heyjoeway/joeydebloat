@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --scope machine -e --id Bitwarden.Bitwarden
+winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine -e --id Bitwarden.Bitwarden

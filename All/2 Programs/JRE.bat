@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --scope machine EclipseAdoptium.Temurin.20.JRE
+winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine EclipseAdoptium.Temurin.20.JRE

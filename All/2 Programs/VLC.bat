@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --scope machine videolan.vlc
+winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine videolan.vlc

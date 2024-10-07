@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --scope machine winget install --id=ViGEm.ViGEmBus -e
+winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine winget install --id=ViGEm.ViGEmBus -e

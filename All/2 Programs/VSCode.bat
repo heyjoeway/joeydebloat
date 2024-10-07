@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --scope machine Microsoft.VisualStudioCode
+winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine Microsoft.VisualStudioCode
