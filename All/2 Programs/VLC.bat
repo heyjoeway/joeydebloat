@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine videolan.vlc
+choco install vlc --accept-license -y

@@ -36,14 +36,12 @@ to reconnect.
 
 # Getting Started
 
-Make sure to run Windows Update first. You'll need winget, which is only included with newer releases.
-
 In an admin Powershell prompt:
 ```
 irm http://jojudge.com/joeydebloat | iex
 ```
 
-This will install Python 3, Git, and the [miniwindeploy](https://github.com/heyjoeway/miniwindeploy) Python package. It then clones this repo and opens it in File Explorer. From there, change whatever scripts you'd like, then open `Start.bat`.
+This will install [Chocolatey](https://chocolatey.org/install), Python 3, Git, and the [miniwindeploy](https://github.com/heyjoeway/miniwindeploy) Python package. It then clones this repo and opens it in File Explorer. From there, change whatever scripts you'd like, then open `Start.bat`.
 
 # License
 MIT

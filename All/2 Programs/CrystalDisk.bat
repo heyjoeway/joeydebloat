@@ -1,2 +1,2 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine CrystalDewWorld.CrystalDiskMark
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine CrystalDewWorld.CrystalDiskInfo
+choco install crystaldiskmark --accept-license -y
+choco install crystaldiskinfo --accept-license -y

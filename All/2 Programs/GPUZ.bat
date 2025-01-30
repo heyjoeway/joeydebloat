@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine TechPowerUp.GPU-Z
+choco install gpu-z --accept-license -y

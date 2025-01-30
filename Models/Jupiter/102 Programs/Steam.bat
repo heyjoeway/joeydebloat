@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine -e --id Valve.Steam
+choco install steam --accept-license -y

@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine 7zip.7zip
+choco install 7zip --accept-license -y

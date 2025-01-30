@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine --id=eloston.ungoogled-chromium -e
+choco install ungoogled-chromium --accept-license -y

@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine EclipseAdoptium.Temurin.20.JRE
+choco install temurin11 --accept-license -y

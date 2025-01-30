@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine Microsoft.VisualStudioCode
+choco install vscode --accept-license -y

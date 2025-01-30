@@ -1,1 +1,1 @@
-winget install --accept-package-agreements --accept-source-agreements -h --source winget --scope machine -e --id Bitwarden.Bitwarden
+choco install bitwarden --accept-license -y
