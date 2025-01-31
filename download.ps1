@@ -19,6 +19,7 @@ Write-Host "Installing Python 3.10 and Git"
 choco install python310 --accept-license -y
 choco install git --accept-license -y --params "'/Editor:Notepad'"
 
+# Reload Path environment variable
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 Write-Host "Installing miniwindeploy"
 python -m pip install git+https://github.com/heyjoeway/miniwindeploy
