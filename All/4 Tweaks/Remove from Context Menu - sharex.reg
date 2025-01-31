@@ -1,0 +1,5 @@
+﻿[HKEY_CURRENT_USER\Software\Classes\Directory\shell\ShareX]
+"LegacyDisable"=""
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\ShareX]
+"LegacyDisable"=""

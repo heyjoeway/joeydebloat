@@ -1,0 +1,13 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Drive\shell\VSCode]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\*\shell\VSCode]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\VSCode]
+"LegacyDisable"=""
