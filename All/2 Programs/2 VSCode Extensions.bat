@@ -1,39 +1,39 @@
 cd "%programfiles%\Microsoft VS Code\bin"
-.\code --install-extension yo1dog.cursor-align
-.\code --install-extension Tyriar.sort-lines
-.\code --install-extension twxs.cmake
-.\code --install-extension svelte.svelte-vscode
-.\code --install-extension qcz.text-power-tools
-.\code --install-extension ms-vscode.sublime-keybindings
-.\code --install-extension ms-vscode.remote-server
-.\code --install-extension ms-vscode.remote-explorer
-.\code --install-extension ms-vscode.powershell
-.\code --install-extension ms-vscode.cpptools-extension-pack
-.\code --install-extension ms-vscode.cpptools
-.\code --install-extension ms-vscode.cmake-tools
-.\code --install-extension ms-vscode-remote.vscode-remote-extensionpack
-.\code --install-extension ms-vscode-remote.remote-wsl
-.\code --install-extension ms-vscode-remote.remote-ssh-edit
-.\code --install-extension ms-vscode-remote.remote-ssh
-.\code --install-extension ms-vscode-remote.remote-containers
-.\code --install-extension ms-toolsai.vscode-jupyter-slideshow
-.\code --install-extension ms-toolsai.vscode-jupyter-cell-tags
-.\code --install-extension ms-toolsai.jupyter-renderers
-.\code --install-extension ms-toolsai.jupyter-keymap
-.\code --install-extension ms-toolsai.jupyter
-.\code --install-extension ms-toolsai.datawrangler
-.\code --install-extension ms-python.vscode-pylance
-.\code --install-extension ms-python.python
-.\code --install-extension ms-python.debugpy
-.\code --install-extension ms-dotnettools.vscode-dotnet-runtime
-.\code --install-extension ms-dotnettools.csharp
-.\code --install-extension ms-dotnettools.csdevkit
-.\code --install-extension ms-azuretools.vscode-docker
-.\code --install-extension mechatroner.rainbow-csv
-.\code --install-extension github.vscode-github-actions
-.\code --install-extension GitHub.copilot-chat
-.\code --install-extension GitHub.copilot
-.\code --install-extension fabiospampinato.vscode-diff
-.\code --install-extension earshinov.permute-lines
-.\code --install-extension eamodio.gitlens
-.\code --install-extension acarreiro.calculate
+start /WAIT cmd /C .\code --install-extension yo1dog.cursor-align
+start /WAIT cmd /C .\code --install-extension Tyriar.sort-lines
+start /WAIT cmd /C .\code --install-extension twxs.cmake
+start /WAIT cmd /C .\code --install-extension svelte.svelte-vscode
+start /WAIT cmd /C .\code --install-extension qcz.text-power-tools
+start /WAIT cmd /C .\code --install-extension ms-vscode.sublime-keybindings
+start /WAIT cmd /C .\code --install-extension ms-vscode.remote-server
+start /WAIT cmd /C .\code --install-extension ms-vscode.remote-explorer
+start /WAIT cmd /C .\code --install-extension ms-vscode.powershell
+start /WAIT cmd /C .\code --install-extension ms-vscode.cpptools-extension-pack
+start /WAIT cmd /C .\code --install-extension ms-vscode.cpptools
+start /WAIT cmd /C .\code --install-extension ms-vscode.cmake-tools
+start /WAIT cmd /C .\code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+start /WAIT cmd /C .\code --install-extension ms-vscode-remote.remote-wsl
+start /WAIT cmd /C .\code --install-extension ms-vscode-remote.remote-ssh-edit
+start /WAIT cmd /C .\code --install-extension ms-vscode-remote.remote-ssh
+start /WAIT cmd /C .\code --install-extension ms-vscode-remote.remote-containers
+start /WAIT cmd /C .\code --install-extension ms-toolsai.vscode-jupyter-slideshow
+start /WAIT cmd /C .\code --install-extension ms-toolsai.vscode-jupyter-cell-tags
+start /WAIT cmd /C .\code --install-extension ms-toolsai.jupyter-renderers
+start /WAIT cmd /C .\code --install-extension ms-toolsai.jupyter-keymap
+start /WAIT cmd /C .\code --install-extension ms-toolsai.jupyter
+start /WAIT cmd /C .\code --install-extension ms-toolsai.datawrangler
+start /WAIT cmd /C .\code --install-extension ms-python.vscode-pylance
+start /WAIT cmd /C .\code --install-extension ms-python.python
+start /WAIT cmd /C .\code --install-extension ms-python.debugpy
+start /WAIT cmd /C .\code --install-extension ms-dotnettools.vscode-dotnet-runtime
+start /WAIT cmd /C .\code --install-extension ms-dotnettools.csharp
+start /WAIT cmd /C .\code --install-extension ms-dotnettools.csdevkit
+start /WAIT cmd /C .\code --install-extension ms-azuretools.vscode-docker
+start /WAIT cmd /C .\code --install-extension mechatroner.rainbow-csv
+start /WAIT cmd /C .\code --install-extension github.vscode-github-actions
+start /WAIT cmd /C .\code --install-extension GitHub.copilot-chat
+start /WAIT cmd /C .\code --install-extension GitHub.copilot
+start /WAIT cmd /C .\code --install-extension fabiospampinato.vscode-diff
+start /WAIT cmd /C .\code --install-extension earshinov.permute-lines
+start /WAIT cmd /C .\code --install-extension eamodio.gitlens
+start /WAIT cmd /C .\code --install-extension acarreiro.calculate
