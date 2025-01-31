@@ -1,0 +1,1 @@
+choco install nirlauncher --accept-license -y

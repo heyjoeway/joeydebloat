@@ -1,1 +1,0 @@
-choco install shexview --accept-license -y
