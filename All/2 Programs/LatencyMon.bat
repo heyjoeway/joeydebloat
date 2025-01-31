@@ -1,0 +1,1 @@
+choco install latencymon --accept-license -y

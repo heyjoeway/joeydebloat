@@ -1,0 +1,1 @@
+choco install patchcleaner --accept-license -y

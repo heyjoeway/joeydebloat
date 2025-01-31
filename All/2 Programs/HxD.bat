@@ -1,0 +1,1 @@
+choco install hxd --accept-license -y

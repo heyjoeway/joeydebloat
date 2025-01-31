@@ -1,0 +1,1 @@
+choco install prime95 --accept-license -y

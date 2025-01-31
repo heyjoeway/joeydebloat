@@ -1,0 +1,1 @@
+choco install linkshellextension --accept-license -y

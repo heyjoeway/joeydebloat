@@ -1,0 +1,1 @@
+choco install teracopy --accept-license -y
