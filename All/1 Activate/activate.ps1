@@ -1,1 +1,1 @@
-& ([ScriptBlock]::Create((irm https://massgrave.dev/get))) /HWID 
+& ([ScriptBlock]::Create((irm https://get.activated.win))) /HWID 
