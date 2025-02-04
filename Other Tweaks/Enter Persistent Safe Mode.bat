@@ -24,5 +24,5 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 :--------------------------------------
-bcdedit /deletevalue {current} safeboot
+bcdedit /set {default} safeboot minimal
 shutdown /r /t 0

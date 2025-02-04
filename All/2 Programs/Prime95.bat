@@ -1,1 +1,2 @@
 choco install prime95 --accept-license -y
+powershell -Command "$s=(New-Object -COM WScript.Shell).CreateShortcut('C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Prime95.lnk');$s.TargetPath='C:\ProgramData\chocolatey\bin\prime95.exe';$s.Save()"
