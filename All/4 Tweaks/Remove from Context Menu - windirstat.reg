@@ -1,0 +1,7 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Drive\shell\WinDirStat]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\WinDirStat]
+"LegacyDisable"=""
