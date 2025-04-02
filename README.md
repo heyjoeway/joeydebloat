@@ -1,5 +1,5 @@
 # joeydebloat
-My personal config for [miniwindeploy](https://github.com/heyjoeway/miniwindeploy).
+A collection of scripts, tweaks, and installers to get Windows set the way I want it as fast as possible. Uses [miniwindeploy](https://github.com/heyjoeway/miniwindeploy) to deploy automatically.
 
 # Disclaimer
 
@@ -10,7 +10,16 @@ This config will probably do a lot of stuff you don't agree with, including but 
 - Uninstalling a bunch of built-in software
 - Installing my preferred programs
 
-The way I've set up the auto-download script allows you to tweak this config before running by deleting tweaks you don't like. (You can also fork this repo.) I will be accepting suggestions, but ultimately what gets added here is up to my personal preference. I will not be managing a standard "community preset".
+The way I've set up the auto-download script allows you to tweak this config before running by simply deleting tweaks you don't like. (You can also fork this repo.) I will be accepting suggestions, but ultimately what gets added here is up to my personal preference. I will not be managing a standard "community preset".
+
+# Getting Started
+
+In an admin Powershell prompt:
+```
+irm http://jojudge.com/joeydebloat | iex
+```
+
+This will install [Chocolatey](https://chocolatey.org/install), Python 3, Git, and the [miniwindeploy](https://github.com/heyjoeway/miniwindeploy) Python package. It then clones this repo and opens it in File Explorer. From there, change whatever scripts you'd like, then open `Start.bat`.
 
 # Other Tips
 
@@ -33,15 +42,6 @@ And after logging in:
 ipconfig /renew
 ```
 to reconnect.
-
-# Getting Started
-
-In an admin Powershell prompt:
-```
-irm http://jojudge.com/joeydebloat | iex
-```
-
-This will install [Chocolatey](https://chocolatey.org/install), Python 3, Git, and the [miniwindeploy](https://github.com/heyjoeway/miniwindeploy) Python package. It then clones this repo and opens it in File Explorer. From there, change whatever scripts you'd like, then open `Start.bat`.
 
 # License
 MIT
