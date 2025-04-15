@@ -1,0 +1,1 @@
+choco install localsend --accept-license -y
