@@ -1,0 +1,1 @@
+choco install micro --accept-license -y

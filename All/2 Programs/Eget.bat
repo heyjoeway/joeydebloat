@@ -1,0 +1,1 @@
+choco install eget --accept-license -y

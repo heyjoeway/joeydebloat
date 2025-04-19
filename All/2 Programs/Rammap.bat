@@ -1,0 +1,1 @@
+choco install rammap --accept-license -y
