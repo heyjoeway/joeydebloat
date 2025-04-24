@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Classes\3mf\shell\open_3mf]
+"LegacyDisable"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\curapackage\shell\open_curapackage]
+"LegacyDisable"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\gcode\shell\open_gcode]
+"LegacyDisable"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\stl\shell\open_stl]
+"LegacyDisable"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\ufp\shell\open_ufp]
+"LegacyDisable"=""

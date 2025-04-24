@@ -5,3 +5,9 @@
 
 [HKEY_CLASSES_ROOT\Directory\shell\WinDirStat]
 "LegacyDisable"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\WinDirStat]
+"LegacyDisable"=""
+
+[HKEY_LOCAL_MACHINE\Software\Classes\Drive\shell\WinDirStat]
+"LegacyDisable"=""
