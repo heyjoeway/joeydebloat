@@ -1,0 +1,33 @@
+:: ----------------------------------------------------------
+:: -------Disable virtualization-based security (VBS)--------
+:: ----------------------------------------------------------
+echo --- Disable virtualization-based security (VBS)
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard!EnableVirtualizationBasedSecurity"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard' /v 'EnableVirtualizationBasedSecurity' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard!EnableVirtualizationBasedSecurity"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'; $data =  '0'; reg add 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard' /v 'EnableVirtualizationBasedSecurity' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard!RequirePlatformSecurityFeatures"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard' /v 'RequirePlatformSecurityFeatures' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard!RequirePlatformSecurityFeatures"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'; $data =  '0'; reg add 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard' /v 'RequirePlatformSecurityFeatures' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard!Locked"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard' /v 'Locked' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard!NoLock"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard'; $data =  '1'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard' /v 'NoLock' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard!Unlocked"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard'; $data =  '1'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard' /v 'Unlocked' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity!Locked"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity' /v 'Locked' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard!RequireMicrosoftSignedBootChain"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard' /v 'RequireMicrosoftSignedBootChain' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity!Enabled"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity' /v 'Enabled' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard!HypervisorEnforcedCodeIntegrity"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'; $data =  '0'; reg add 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard' /v 'HypervisorEnforcedCodeIntegrity' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard!Mandatory"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard' /v 'Mandatory' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity!HVCIMATRequired"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity'; $data =  '0'; reg add 'HKLM\SYSTEM\CurrentControlSet\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity' /v 'HVCIMATRequired' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: Set the registry value: "HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard!HVCIMATRequired"
+PowerShell -ExecutionPolicy Unrestricted -Command "$registryPath = 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard'; $data =  '0'; reg add 'HKLM\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard' /v 'HVCIMATRequired' /t 'REG_DWORD' /d "^""$data"^"" /f"
+:: ----------------------------------------------------------
