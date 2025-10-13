@@ -43,5 +43,7 @@ ipconfig /renew
 ```
 to reconnect.
 
+You can skip giving your account a password in the OOBE if you want to skip creating the useless security questions. If you do though, **set a password before running the debloater.** I've found that Chocolatey (and RustDesk as a side note) will sometimes hang up when installing programs without a password.
+
 # License
 MIT
