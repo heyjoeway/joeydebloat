@@ -7,6 +7,7 @@ This config will probably do a lot of stuff you don't agree with, including but 
 
 - Running unsigned Powershell scripts
 - Activation via Microsoft Activation Scripts
+- Disabling Windows Defender and other security features for performance
 - Uninstalling a bunch of built-in software
 - Installing my preferred programs
 
@@ -27,23 +28,15 @@ If you're trying to install Windows 11 on an unsupported machine, check out the 
 - <https://github.com/JosephM101/Force-Windows-11-Install>
 - <https://github.com/rcmaehl/WhyNotWin11>
 
+Use the "Previous Version of Setup" when you boot the Windows installer. It is significantly faster.
+
 When installing Windows 11, stop when you get to the OOBE (where you connect to the network, create an account, etc.) and do the following:
 
 - Press Shift+F10 to open a command prompt.
-- Type `oobe\bypassnro` and press enter.
-- Wait for the PC to reboot.
+- Type `start ms-cxh:localonly` and press enter.
+- Create a local account using the window that pops up.
 
-You can now skip creating a Microsoft account as long as you're disconnected from the internet. If you acccidentally connected to the internet, you'll need to use this command:
-```
-ipconfig /release
-```
-And after logging in:
-```
-ipconfig /renew
-```
-to reconnect.
-
-You can skip giving your account a password in the OOBE if you want to skip creating the useless security questions. If you do though, **set a password before running the debloater.** I've found that Chocolatey (and RustDesk as a side note) will sometimes hang up when installing programs without a password.
+You can skip giving your account a password in the OOBE if you want to also skip creating the security questions. If you do though, **set a password before running the debloater.** Chocolatey (used to install programs from this repo) and RustDesk will sometimes hang up or malfunction when not a password.
 
 # License
 MIT

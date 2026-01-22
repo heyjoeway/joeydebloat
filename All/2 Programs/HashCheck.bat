@@ -1,0 +1,1 @@
+choco install hashcheck --accept-license -y
