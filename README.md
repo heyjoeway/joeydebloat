@@ -36,7 +36,7 @@ When installing Windows 11, stop when you get to the OOBE (where you connect to 
 - Type `start ms-cxh:localonly` and press enter.
 - Create a local account using the window that pops up.
 
-You can skip giving your account a password in the OOBE if you want to also skip creating the security questions. If you do though, **set a password before running the debloater.** Chocolatey (used to install programs from this repo) and RustDesk will sometimes hang up or malfunction when not a password.
+You can skip giving your account a password in the OOBE if you want to also skip creating the security questions. If you do though, **set a password before running the debloater.** Chocolatey (used to install programs from this repo) and RustDesk will sometimes hang up or malfunction when there's not a password.
 
 # License
 MIT
